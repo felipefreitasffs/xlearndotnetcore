@@ -1,0 +1,8 @@
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.deps.json
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.dll
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.pdb
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.csproj.CoreCompileInputs.cache
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.AssemblyInfoInputs.cache
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.AssemblyInfo.cs
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.dll
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.pdb

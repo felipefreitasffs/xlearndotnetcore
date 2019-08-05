@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj": {}
+  },
+  "projects": {
+    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj",
+        "projectName": "Xlearn.Api",
+        "projectPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj",
+        "packagesPath": "/home/ffreitas/.nuget/packages/",
+        "outputPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ffreitas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

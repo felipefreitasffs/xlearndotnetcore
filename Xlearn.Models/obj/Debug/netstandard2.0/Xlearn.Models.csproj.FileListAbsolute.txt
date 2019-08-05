@@ -1,0 +1,9 @@
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/bin/Debug/netstandard2.0/Xlearn.Models.deps.json
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/bin/Debug/netstandard2.0/Xlearn.Models.dll
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/bin/Debug/netstandard2.0/Xlearn.Models.pdb
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.csprojAssemblyReference.cache
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.csproj.CoreCompileInputs.cache
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.AssemblyInfoInputs.cache
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.AssemblyInfo.cs
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.dll
+/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Models/obj/Debug/netstandard2.0/Xlearn.Models.pdb

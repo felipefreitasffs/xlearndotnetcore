@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj": {}
+  },
+  "projects": {
+    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj",
+        "projectName": "Xlearn.Services",
+        "projectPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj",
+        "packagesPath": "/home/ffreitas/.nuget/packages/",
+        "outputPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ffreitas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
