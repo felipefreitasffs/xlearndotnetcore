@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Xlearn.Api.Controllers
 {
@@ -19,6 +20,14 @@ namespace Xlearn.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            Log.ForContext<ValuesController>().Information("Hello, world!");
+            Log.Verbose("Verbose Get");
+            Log.Debug("Debug Get");
+            Log.Information("Information Get");
+            Log.Warning("Warning Get");
+            Log.Error("Error Get");
+            Log.Fatal("Fatal Get");
+
             return new string[] { "value1", "value2" };
         }
 
