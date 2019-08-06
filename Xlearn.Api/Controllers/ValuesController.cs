@@ -10,7 +10,12 @@ namespace Xlearn.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        /// <summary>
+        /// Get the values.
+        /// </summary>
+        /// <returns>
+        /// A list of values.
+        /// </returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {

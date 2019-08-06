@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj": {}
+    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Api/Xlearn.Api.csproj": {}
   },
   "projects": {
-    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj": {
+    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Api/Xlearn.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj",
+        "projectUniqueName": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Api/Xlearn.Api.csproj",
         "projectName": "Xlearn.Api",
-        "projectPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/Xlearn.Api.csproj",
+        "projectPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Api/Xlearn.Api.csproj",
         "packagesPath": "/home/ffreitas/.nuget/packages/",
-        "outputPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Api/obj/",
+        "outputPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Api/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -23,7 +23,7 @@
           "netcoreapp2.2"
         ],
         "sources": {
-          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [

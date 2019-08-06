@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xlearn.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Xlearn.Api.Controllers.ValuesController.Get">
+            <summary>
+            Get the values.
+            </summary>
+            <returns>
+            A list of values.
+            </returns>
+        </member>
+    </members>
+</doc>

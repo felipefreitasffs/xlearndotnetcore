@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj": {}
+    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/Xlearn.Services.csproj": {}
   },
   "projects": {
-    "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj": {
+    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/Xlearn.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj",
+        "projectUniqueName": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/Xlearn.Services.csproj",
         "projectName": "Xlearn.Services",
-        "projectPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/Xlearn.Services.csproj",
+        "projectPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/Xlearn.Services.csproj",
         "packagesPath": "/home/ffreitas/.nuget/packages/",
-        "outputPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Services/obj/",
+        "outputPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -23,7 +23,7 @@
           "netstandard2.0"
         ],
         "sources": {
-          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

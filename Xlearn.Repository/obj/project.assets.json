@@ -1970,11 +1970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Repository/Xlearn.Repository.csproj",
+      "projectUniqueName": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
       "projectName": "Xlearn.Repository",
-      "projectPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Repository/Xlearn.Repository.csproj",
+      "projectPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
       "packagesPath": "/home/ffreitas/.nuget/packages/",
-      "outputPath": "/home/ffreitas/Documents/git-projects/xlearn/Xlearn.Repository/obj/",
+      "outputPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -1986,7 +1986,7 @@
         "netstandard2.0"
       ],
       "sources": {
-        "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
