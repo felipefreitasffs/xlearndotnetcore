@@ -15,3 +15,15 @@
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.AssemblyInfo.cs
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.dll
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/bin/Debug/netstandard2.0/Xlearn.Repository.deps.json
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/bin/Debug/netstandard2.0/Xlearn.Repository.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/bin/Debug/netstandard2.0/Xlearn.Repository.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/bin/Debug/netstandard2.0/Xlearn.Models.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/bin/Debug/netstandard2.0/Xlearn.Models.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.csprojAssemblyReference.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.csproj.CoreCompileInputs.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.AssemblyInfoInputs.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.AssemblyInfo.cs
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.csproj.CopyComplete
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/Debug/netstandard2.0/Xlearn.Repository.pdb

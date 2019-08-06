@@ -14,3 +14,17 @@
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.AssemblyInfo.cs
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.dll
 /home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.deps.json
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Services.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.csprojAssemblyReference.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.csproj.CoreCompileInputs.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.AssemblyInfoInputs.cache
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.AssemblyInfo.cs
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Models.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Repository.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Repository.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/bin/Debug/netstandard2.0/Xlearn.Models.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Services/obj/Debug/netstandard2.0/Xlearn.Services.csproj.CopyComplete

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj": {}
+    "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj": {}
   },
   "projects": {
-    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj": {
+    "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
-        "projectName": "Xlearn.Repository",
-        "projectPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
+        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
+        "projectName": "Xlearn.Models",
+        "projectPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
         "packagesPath": "/home/ffreitas/.nuget/packages/",
-        "outputPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Repository/obj/",
+        "outputPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -23,7 +23,7 @@
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -39,9 +39,75 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
+        "projectName": "Xlearn.Repository",
+        "projectPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/Xlearn.Repository.csproj",
+        "packagesPath": "/home/ffreitas/.nuget/packages/",
+        "outputPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ffreitas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {
+                "projectPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
             "Dommel": {
               "target": "Package",
               "version": "[1.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

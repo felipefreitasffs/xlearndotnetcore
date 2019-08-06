@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {}
+    "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {}
   },
   "projects": {
-    "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {
+    "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
+        "projectUniqueName": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
         "projectName": "Xlearn.Models",
-        "projectPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
+        "projectPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/Xlearn.Models.csproj",
         "packagesPath": "/home/ffreitas/.nuget/packages/",
-        "outputPath": "/home/ffreitas/Documentos/git-projects/xlearndotnetcore/Xlearn.Models/obj/",
+        "outputPath": "/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Models/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -23,7 +23,7 @@
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "http://nexus.lab.landix.com.br:8081/repository/nuget-group/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -39,6 +39,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

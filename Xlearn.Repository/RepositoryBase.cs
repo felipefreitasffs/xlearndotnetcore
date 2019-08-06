@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+
+using Dommel;
+
+using Microsoft.Extensions.Configuration;
+
+using MySql.Data.MySqlClient;
+
+using Xlearn.Models;
+
+namespace Xlearn.Repository {
+    public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : BaseEntity {
+
+        protected readonly string ConnectionString;
+
+        protected RepositoryBase(IConfiguration configuration) {
+            ConnectionString = configuration.GetConnectionString("DefaultConnection");
+        }
+
+        public virtual bool Delete(string id) {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                var entity = GetById(id);
+
+                if (entity == null) throw new Exception("Registro não encontrado");
+
+                return db.Delete(entity);
+            }
+        }
+
+        public virtual IEnumerable<TEntity> GetAll() {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                return db.GetAll<TEntity>();
+            }
+        }
+
+        public virtual TEntity GetById(string id) {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                return db.Get<TEntity>(id);
+            }
+        }
+
+        public virtual IEnumerable<TEntity> GetList(Expression<Func<TEntity, bool>> predicate) {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                return db.Select(predicate);
+            }
+        }
+
+        public virtual void Insert(ref TEntity entity) {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                var id = (string) db.Insert(entity);
+
+                entity = GetById(id);
+            }
+        }
+
+        public virtual bool Update(TEntity entity) {
+            using(var db = new MySqlConnection(ConnectionString)) {
+                return db.Update(entity);
+            }
+        }
+    }
+}
