@@ -19,7 +19,7 @@ namespace Xlearn.Repository {
             ConnectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public virtual bool Delete(string id) {
+        public virtual bool Delete(UInt64 id) {
             using(var db = new MySqlConnection(ConnectionString)) {
                 var entity = GetById(id);
 
@@ -35,7 +35,7 @@ namespace Xlearn.Repository {
             }
         }
 
-        public virtual TEntity GetById(string id) {
+        public virtual TEntity GetById(UInt64 id) {
             using(var db = new MySqlConnection(ConnectionString)) {
                 return db.Get<TEntity>(id);
             }
@@ -49,7 +49,7 @@ namespace Xlearn.Repository {
 
         public virtual void Insert(ref TEntity entity) {
             using(var db = new MySqlConnection(ConnectionString)) {
-                var id = (string) db.Insert(entity);
+                var id = (UInt64) db.Insert(entity);
 
                 entity = GetById(id);
             }

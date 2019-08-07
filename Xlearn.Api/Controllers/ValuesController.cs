@@ -20,7 +20,6 @@ namespace Xlearn.Api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            Log.ForContext<ValuesController>().Information("Hello, world!");
             Log.Verbose("Verbose Get");
             Log.Debug("Debug Get");
             Log.Information("Information Get");

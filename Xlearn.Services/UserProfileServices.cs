@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using Dapper;
 
 using Microsoft.Extensions.Configuration;
@@ -17,48 +19,48 @@ namespace Xlearn.Services {
             using(var db = new MySqlConnection(ConnectionString)) {
                 return db.Query<UserProfile, User, Profile, UserProfile>(
                     @"  SELECT
-                            UserProfile.Id,
-                            UserProfile.UserId,
-                            UserProfile.ProfileId,
-                            UserProfile.Configuration,
-                            User.Id,
-                            User.Description,
-                            Profile.Id,
-                            Profile.Description
+                            UserProfiles.Id,
+                            UserProfiles.UserId,
+                            UserProfiles.ProfileId,
+                            UserProfiles.Configuration,
+                            Users.Id,
+                            Users.Name,
+                            Profiles.Id,
+                            Profiles.Name
                         FROM
-                            UserProfile
-                        INNER JOIN User on
-                            UserProfile.UserId = User.Id
-                        INNER JOIN Profile on
-                            Profile.Id = UserProfile.ProfileId
+                            UserProfiles
+                        INNER JOIN Users on
+                            UserProfiles.UserId = Users.Id
+                        INNER JOIN Profiles on
+                            Profiles.Id = UserProfiles.ProfileId
                     ",
-                    map: (UserProfile, User, Profile) => {
-                        UserProfile.User = User;
-                        UserProfile.Profile = Profile;
+                    map: (UserProfile, Users, Profiles) => {
+                        UserProfile.User = Users;
+                        UserProfile.Profile = Profiles;
                         return UserProfile;
                     });
             }
         }
 
-        public override UserProfile GetById(string userProfileId) {
+        public override UserProfile GetById(UInt64 userProfileId) {
             using(var db = new MySqlConnection(ConnectionString)) {
                 return db.Query<UserProfile, User, Profile, UserProfile>(
                     @"  SELECT
-                            UserProfile.Id,
-                            UserProfile.UserId,
-                            UserProfile.ProfileId,
-                            UserProfile.Configuration,
-                            User.Id,
-                            User.Description,
-                            Profile.Id,
-                            Profile.Description
+                            UserProfiles.Id,
+                            UserProfiles.UserId,
+                            UserProfiles.ProfileId,
+                            UserProfiles.Configuration,
+                            Users.Id,
+                            Users.Name,
+                            Profiles.Id,
+                            Profiles.Name
                         FROM
-                            UserProfile
-                        INNER JOIN User on
-                            UserProfile.UserId = User.Id
-                        INNER JOIN Profile on
-                            Profile.Id = UserProfile.ProfileId
-                        WHERE UserProfile.Id = @id
+                            UserProfiles
+                        INNER JOIN Users on
+                            UserProfiles.UserId = Users.Id
+                        INNER JOIN Profiles on
+                            Profiles.Id = UserProfiles.ProfileId
+                        WHERE UserProfiles.Id = @id
                     ",
                     map: (UserProfile, User, Profile) => {
                         UserProfile.User = User;

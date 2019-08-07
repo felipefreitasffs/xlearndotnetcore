@@ -30,3 +30,10 @@
 /home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/obj/Debug/netcoreapp2.2/Xlearn.Api.dll
 /home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/obj/Debug/netcoreapp2.2/Xlearn.Api.xml
 /home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/obj/Debug/netcoreapp2.2/Xlearn.Api.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Models.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Repository.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Services.dll
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Repository.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Models.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/bin/Debug/netcoreapp2.2/Xlearn.Services.pdb
+/home/ffreitas/Documents/git-projects/xlearndotnetcore/Xlearn.Api/obj/Debug/netcoreapp2.2/Xlearn.Api.csproj.CopyComplete
